@@ -1,0 +1,59 @@
+
+@charset "utf-8";
+
+main{
+    max-width: 80%;
+    display: grid;
+    grid-template-areas:
+        'h h h h h h'
+        'k k k k k k'
+        'g a a a a m'
+        'f f f f f f';
+    
+}
+
+.kartya{
+  padding: 2px;
+  border: 1px solid grey;
+}
+
+.kartya img{
+    width: 100%;
+}
+
+
+#jatekter{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+header{
+    grid-area: h;
+    border: 1px solid gray;
+}
+article{
+    grid-area: a;
+    border: 1px solid gray;
+}
+nav{
+    grid-area: k;
+    border: 1px solid gray;
+}
+.g{
+    grid-area: g;
+    border: 1px solid gray;
+}
+.m{
+    grid-area: m;
+    border: 1px solid gray;
+}
+footer{
+    grid-area: f;
+    border: 1px solid gray;
+}
+
+
+
+
